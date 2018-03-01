@@ -30,7 +30,7 @@ services:
   database_tailung:
     image: postgres
     volumes:
-      - ./.data:postgres:/var/lib/postgresql/data
+      - ./.data/postgres:/var/lib/postgresql/data
 ```
 
 ```bash
