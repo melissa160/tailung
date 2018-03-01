@@ -182,6 +182,9 @@ app/views/layouts/application.html.erb
 Resources
 
 https://www.youtube.com/watch?v=KtoHlJVq8io
+
 https://github.com/reactjs/react-rails
+
 https://github.com/rails/webpacker
+
 https://evilmartians.com/chronicles/evil-front-part-1
