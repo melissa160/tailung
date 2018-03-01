@@ -178,6 +178,20 @@ app/views/layouts/application.html.erb
 </html>
 ```
 
+Setting up test frameworks
+
+Edit the Gemfile and add:
+```bash
+group :development, :test do
+  gem 'rspec-rails'
+end
+
+group :test do
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
+end
+```
+
 
 Resources
 
@@ -188,3 +202,5 @@ https://github.com/reactjs/react-rails
 https://github.com/rails/webpacker
 
 https://evilmartians.com/chronicles/evil-front-part-1
+
+https://github.com/rspec/rspec-rails
