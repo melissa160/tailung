@@ -1,5 +1,10 @@
 {
   "name": "tailung",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@rails/webpacker": "^3.2.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.1.0"
+  }
 }
