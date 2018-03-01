@@ -10,6 +10,9 @@ development:
   <<: *default
   database: tailung_development
 
-test:
+test: &test
   <<: *default
   database: tailung_test
+
+cucumber:
+  <<: *test
