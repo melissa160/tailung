@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
   def index
-    render component: 'Home', props: {title: 'hola'}
+    render component: "#{controller_name}/#{action_name}", props: {title: 'hola mundo'}
   end
 end
