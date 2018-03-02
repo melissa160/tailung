@@ -13,6 +13,6 @@ services:
     links:
       - database_tailung:database_tailung
   database_tailung:
-    image: postgres
+    image: postgres:9.6
     volumes:
       - ./.data/postgres:/var/lib/postgresql/data
