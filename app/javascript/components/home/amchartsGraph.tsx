@@ -9,11 +9,19 @@ class AmchartsGraph extends React.Component<any, any> {
     return(
       <div>
         saludo: { this.state.chartDataJson[0].campaign }
+        <ul className="button-chart-list">
+          <li>
+            <a className="button-tertiary.tertiary-button-active">el boton</a>
+          </li>
+          <li>
+            <a className="mybutton">my button</a>
+          </li>
+        </ul>
       </div>
     )
   }
 }
-  export default AmchartsGraph
+export default AmchartsGraph
   /*
   function paint(chartData){
     var chart = AmCharts.makeChart("chartdiv", {

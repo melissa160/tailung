@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bootstrap.css";
+@import "bootstrap-responsive.css";
+@import "style.css";
+li{
+    text-color: red;
+    background-color: blue;
+}
