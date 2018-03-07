@@ -13,11 +13,15 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import 'bootstrap-datetimepicker';
 
-@import "bootstrap.css";
-@import "bootstrap-responsive.css";
-@import "style.css";
-li{
-    text-color: red;
-    background-color: blue;
-}
+@import "utils/variables";
+@import "utils/mixins";
+
+@import "components/home/amchartsGraph";
+
+@import "charts/charts";
+@import "charts/charts";
+

@@ -1,0 +1,47 @@
+/*#############################################################################
+# MIXINS
+#############################################################################*/
+
+// Media Queries
+
+@mixin responsive($break-point) {
+
+  @media only screen and (min-width: rem-calc($break-point)) { @content; }
+
+}
+
+@mixin responsive-min-max($min-break-point, $max-break-point) {
+
+  @media only screen and (min-width: rem-calc($min-break-point)) and (max-width: rem-calc($max-break-point)) { @content; }
+
+}
+
+@mixin responsive-max($break-point) {
+
+  @media only screen and (max-width: rem-calc($break-point)) { @content; }
+
+}
+
+@mixin responsive-height($break-point) {
+
+  @media only screen and (min-height: rem-calc($break-point)) { @content; }
+
+}
+
+@mixin responsive-max-height($break-point) {
+
+  @media only screen and (max-height: rem-calc($break-point)) { @content; }
+
+}
+
+
+/*#############################################################################
+# PLACEHOLDERS
+#############################################################################*/
+
+
+%transition-all {
+  @include transition(all 0.2s cubic-bezier(.7, 0, .175, 1) 0s);
+}
+
+

@@ -1,0 +1,170 @@
+// Grid float
+$grid-float-breakpoint: 993px;
+
+/**********************************/
+/* Element              Hexa-color */
+/**********************************/
+
+/* Base variables */
+$brand:                     #019966;
+$dnamusic-color:            #894d8e;
+$telefonicamovistarco-color: #05559c;
+$bancofalabellacol-color:    #56575A;
+$claroperu-color:           #e2231a;
+$box-shadow:                rgba(0,0,0,0.2);
+$menu-color:                #808080;
+
+/* Base colors */
+$base-blue:                 #36A2EB;
+$base-green:                #4BC0C0;
+$base-red:                  #FF6384;
+$base-text-color:           #333333;
+$base-gray:                 #f2f2f2;
+
+/* Buttons */
+$button-new:                #36A2EB;
+$button-edit:               #d1cb57;
+$button-detail:             #57b3d1;
+$button-search:             #249fed;
+$button-default:            #b0b5b9;
+$button-success:            #4BC0C0;
+
+/* Forms */
+$label-color:               #444444;
+$title-form:                #333333;
+$border-input:              #6F6B6B;
+$border-checkbox:           #ADADAD;
+$background-input:          #ffffff;
+$placeholder-input:         #ADADAD;
+$border-focus-input:        #bdc5c9;
+$background-checkbox:       #3794fc;
+$background-hover-select:   #02acee;
+
+/* List */
+$highlight-item:            #e7f7e0;
+$hover-list-item:           #f5f5f5;
+$border-list-item:          #E2E2E2;
+$border-list-title:         #f2f2f2;
+$background-list-title:     #f2f2f2;
+$color-highlight:           #CCEBE0;
+$color-first-value:         #bfbfbf;
+$color-name:                #888888;
+$color-value:               #afafaf;
+$btn-list-action:           #f2f2f2;
+$dropdown-list-action:      #e7e7e7;
+
+/* Login */
+$login-border:              #9ea1a9;
+$login-header:              #9ea1a9;
+
+/* Boxs colors */
+$blue-box:                  #4d91b6;
+$blue-box-hover:            #1f6c96;
+$green-box:                 #239c7a;
+$green-box-hover:           #018660;
+$purple-box:                #b64d85;
+$purple-box-hover:          #b01e6b;
+$yellow-box:                #e6dc3e;
+$yellow-box-hover:          #ccc108;
+
+/* Social network colors */
+$twitter-color:             #77C7F7;
+$twitter2-color:            #00ADF4;
+$facebook-color:            #3b5998;
+$linkedin-color:            #006FA6;
+
+/* Nabvar variables */
+$navbar:                    #f2f2f2;
+$navbar-toggle:             #e5e5e5;
+$navbar-text-color:         #484848;
+$navbar-link-active:        #e5e5e5;
+
+/* Left Nabvar */
+$background-left-navbar:    #262B33;
+$background-active-link:    #1C2027;
+
+/* Post box colors */
+$post-box-background:       #fbfbfb;
+$post-box-color-primary:    #6d6d6d;
+$post-box-color-secondary:  #979597;
+
+/* Contact box colors */
+$contact-box-background:    #F2F2F2;
+
+/* Status colors */
+$status-activated:          #A8F34A;
+$status-completed:          #32B482;
+$status-created:            #00AEFF;
+$status-pending:            #ffbd00;
+$status-modified:           #ffbd00;
+$status-paused:             #9a9a9a;
+$status-nomodified:         #32B482;
+
+/* Info colors */
+$page-info-color:           #3a73ef;
+
+/* Pages variables */
+$hero-copy-color:           #ffffff;
+$principal-color:           #349643;
+$dashboard-background:      #f5f5f5;
+$dashboard-principal-color: #006E46;
+
+$title-section-color:       #807c7c;
+$div-section:               #e1e1e1;
+
+/* action-colors */
+$detail-item:               #6BD0FF;
+$detail-item-hover:         #0082BF;
+
+$reactivate-item:           #78a6ce;
+$reactivate-item-hover:     #3789d0;
+
+$pause-item:                #edff15;
+$pause-item-hover:          #f49742;
+
+$delete-item:               #FF6B6B;
+$delete-item-hover:         #E90F0F;
+
+$see-statistics-item:       #83FF6B;
+$see-statistics-item-hover: #77ED60;
+
+$send-email:                #FCAF63;
+$send-email-hover:          #FF9A36;
+
+/* Employee variables */
+$main-font-color:           #8F9DC9;
+$border-blue-color:         #CCD9EF;
+$dark-font-color:           #3E507A;
+
+/*************************************
+     New colors definition
+*************************************/
+
+// Blue
+$blue-darker:               #364760;
+$blue-neutral:              #5AB0EE;
+$blue-lighter:              #E6F4FF;
+
+// Gray
+$primary-text:              #687189;
+$secondary-text:            #949AA9;
+$gray-buttons:              #EFF2F9;
+$general-background-color:  #F8F9FC;
+
+// Hot colors
+$green-neutral:             #2EC6C8;
+$orange-neutral:            #FFD5AF;
+
+/*************************************
+     Variables to break point
+**************************************/
+
+// Layout Change Breakpoints
+
+$breakpoint-small: 481px;
+$breakpoint-medium: 641px;
+$breakpoint-large: 1025px;
+$breakpoint-xlarge: 1200px;
+$breakpoint-xxlarge: 1441px;
+$breakpoint-xxxlarge: 1921px;
+

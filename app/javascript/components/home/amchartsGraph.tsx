@@ -1,4 +1,5 @@
 import * as React from "react"
+//import "./amchartsGraph.css"
 
 class AmchartsGraph extends React.Component<any, any> {
   constructor(props: number[]){
@@ -11,10 +12,10 @@ class AmchartsGraph extends React.Component<any, any> {
         saludo: { this.state.chartDataJson[0].campaign }
         <ul className="button-chart-list">
           <li>
-            <a className="button-tertiary.tertiary-button-active">el boton</a>
+            <a className="button-tertiary tertiary-button-active">el boton</a>
           </li>
           <li>
-            <a className="mybutton">my button</a>
+            <button className="mybutton">my button</button>
           </li>
         </ul>
       </div>
